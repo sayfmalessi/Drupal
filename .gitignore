@@ -6,11 +6,12 @@
 # https://www.drupal.org/docs/develop/using-composer
 
 # Ignore configuration files that may contain sensitive information
-/web/sites/*/*settings*.php
 /web/sites/*/*services*.yml
 
 # Ignore paths that may contain user-generated content
-/web/sites/*/files
+/web/sites/*/files/php
+/web/sites/*/files/styles
+/web/sites/*/files/php
 /web/sites/*/public
 /web/sites/*/private
 /web/sites/*/files-public
@@ -20,7 +21,6 @@
 /web/sites/*/translations
 /web/sites/*/tmp
 /web/sites/*/cache
-
 # Ignore drupal core (if not versioning drupal sources)
 /web/vendor
 /web/core
